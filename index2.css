@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  /* color: rgba(200, 241, 252, 0.938); */
+}
+header{
+  background: linear-gradient(rgb(100, 157, 231),white);
+  /* background-color:rgba(211, 240, 245, 0.863); */
+}
+
+footer{
+  background: linear-gradient(white,rgba(115, 165, 223, 0.911));
+}
+
+.container {
+  margin-top: 3rem;
+}
+
+.Text{
+    /* border: 2px solid black; */
+    padding: 8rem;
+}
+
+h1{
+
+    text-align: left;
+    
+    font-style: xx-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+a.btn.btn-primary {
+    border-radius: 3rem;
+}
+a.btn.btn-danger {
+    border-radius: 3rem;
+}
+
+.pavo{
+  font-size: xx-large;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:400;
+  color: black;
+}
+
+.content{
+  margin-top: 5%;
+  /* background-color:rgba(158, 215, 231, 95%); */
+}
+
+.container1{
+  /* background-color: rgb(158 214 231 / 95%); */
+  width: 90%;
+  margin: 0 auto;
+ 
+}
+
+
+img.card-img-top{
+    padding: 7rem;
+  
+    /* background-color: rgba(175, 233, 243, 0.883); */
+    background-color: rgba(222, 240, 243, 0.931);
+  
+} 
+/* .col h-30{
+
+background-color: rgb(128, 180, 189);
+} */
+
+span{
+  
+ font-weight: bold;
+  color:  darkblue;
+}
+
+img.card-img-top2 {
+  /* border: 5px solid; */
+  border: radus;
+  border-radius: 16rem;
+  padding: 5rem;
+  margin-top: 2%;
+}
+.card-body{
+  text-align: center;
+  /* background-color: rgba(193, 236, 243, 0.883); */
+}
+
+section{
+  background: rgba(0, 0, 0, 75%) url(/Img/pricing-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+background-blend-mode: darken;
+ 
+}
+
+.footer2{
+  
+  display: flex; 
+  color: grey;
+   justify-content: space-between;
+   padding: 0.6rem;
+}
+#Copyright{
+  margin-left: 20%;
+}
+
+
+
+
+
+@media(max-width:764px){
+
+  .html{
+    font-size: 50%;
+
+  }
+  .container .row{
+    display: block;
+    font-size: auto;
+    margin-top: 5rem;
+    
+  }
+  .footer .container .row .col-lg-6{
+    border:2px solid red;
+    margin-top: 80%;
+  }
+  .h-5{
+    margin-bottom: 5rem;
+    justify-content: center;
+    display: block;
+  }
+  .img-fluid{
+    
+    display: block;
+    margin-top: 10rem;
+    justify-content: center;
+    
+  }
+  .card-text{
+    display: block;
+    justify-content: center;
+    margin-bottom: 5rem;
+    height: auto;
+
+  }
+  .footer2{
+    display: block;
+    margin-left: auto;
+  }
+
+  .rounded-center{
+    display: block;
+    justify-content: center;
+  }
+ h2{
+   justify-content: start;
+   height: auto;
+   display: block;
+ }
+}
+
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+/* // No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+   .container{
+     width: 100%;
+     display: block;
+     justify-content: center;
+     margin: 10%;
+     height: auto;
+ }
+   .container1{
+     display: block;
+     justify-content: center;
+     margin: 5%;
+     width: 100%;
+     height: auto;
+   }
+
+   #standred{
+     border:chartreuse;
+     width: 100%;
+     height: auto;
+   }
+
+   
+   footer{
+     display: block;
+     margin: 10%;
+   }
+   .bgimg{
+     display: block;
+     margin: 10%;
+     justify-content: center;
+   }
+   .content{
+     justify-content: center;
+     display: block;
+   }
+   .img.card-img-top{
+     justify-content: center;
+     display: block;
+   }
+   .img.card-img-top2{
+     justify-content: center;
+     display: block;
+   }
+  
+}
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (max-width: 768px) { 
+  .container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+}
+  .container1{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 5%;
+  }
+  footer{
+    display: block;
+    margin: 10%;
+    justify-content: center;
+    text-align: center;
+  }
+  .bgimg{
+    display: block;
+    margin: 10%;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+  }
+  .content{
+    justify-content: center;
+    display: block;
+  }
+  
+  .img.card-img-top2{
+    justify-content: center;
+    display: block;
+  }
+ 
+} */
+
+
+ 
+
+/* // Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { ... } */
+
+/* // X-Large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+/* @media (min-width: 1400px) { ... } */
